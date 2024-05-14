@@ -26,12 +26,12 @@ variable "rds_subnets" {
 
 variable "region" {
   description = "AWS region"
-  default     = "us-east-1"
+  default     = "ap-southeast-1"
 }
 
 variable "availability_zones" {
   description = "List of availability zones"
-  default     = ["us-east-1a", "us-east-1b"]
+  default     = ["ap-southeast-1a", "ap-southeast-1b"]
 }
 
 variable "key_name" {

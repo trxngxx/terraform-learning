@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-1"  # Đặt region bạn mong muốn
+  region = "ap-southeast-1"  # Đặt region bạn mong muốn
 }
 
 # Tạo VPC
