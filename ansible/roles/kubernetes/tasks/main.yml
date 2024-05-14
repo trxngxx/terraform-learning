@@ -1,0 +1,3 @@
+- include_tasks: kube-dependencies.yml
+- include_tasks: master.yml
+- include_tasks: workers.yml
