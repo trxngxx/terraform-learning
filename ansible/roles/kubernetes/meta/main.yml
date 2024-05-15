@@ -1,5 +1,5 @@
 galaxy_info:
-  author: nnartnav
+  author: vinataba
   description: Ansible role to install and configure a Kubernetes cluster.
   company: SETA International VN
   license: license (GPLv2, CC-BY, etc)
