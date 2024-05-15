@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "ap-southeast-1"  # Đặt region bạn mong muốn
+  region = "ap-southeast-1"  
 }
 
 # Tạo VPC
@@ -166,13 +166,12 @@ resource "aws_instance" "k8s_worker2" {
   key_name      = "your-key-name"
 }
 
-# Tạo RDS instance
 resource "aws_db_instance" "rds" {
   allocated_storage    = 20
   engine               = "mysql"
   engine_version       = "5.7"
   instance_class       = "db.t2.micro"
-  name                 = "rds"
+  db_name              = "rds_name"
   username             = "admin"
   password             = "password"
   db_subnet_group_name = aws_db_subnet_group.rds_subnet_group.name
