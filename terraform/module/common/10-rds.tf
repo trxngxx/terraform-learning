@@ -8,7 +8,7 @@ resource "aws_db_instance" "rds" {
   engine               = "mysql"
   engine_version       = "5.7"
   instance_class       = "db.t2.micro"
-  name                 = "rds_name"
+  name                 = "rds"
   username             = "admin"
   password             = "password"
   db_subnet_group_name = aws_db_subnet_group.rds_subnet_group.name
