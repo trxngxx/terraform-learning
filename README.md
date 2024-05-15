@@ -20,12 +20,12 @@ Navigate to the `scripts` directory and run the `terraform-init.sh` script with 
 cd scripts
 sh ./terraform-init.sh dev
 
-2. Apply Terraform Configuration
+### 2. Apply Terraform Configuration
 After initializing, apply the Terraform configuration to provision the infrastructure:
 
 sh ./terraform-apply.sh dev
 
-3. Deploy Kubernetes Cluster with Ansible
+### 3. Deploy Kubernetes Cluster with Ansible
 Once the infrastructure is provisioned, use Ansible to set up the Kubernetes cluster:
 
 sh ./ansible-deploy.sh dev
